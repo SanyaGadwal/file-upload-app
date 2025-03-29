@@ -1,0 +1,17 @@
+.upload-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

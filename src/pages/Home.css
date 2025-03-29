@@ -1,0 +1,103 @@
+/* Home Container */
+.home-container {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Upload Section */
+  .upload-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 20px auto;
+  }
+  
+  /* Files Section */
+  .files-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 20px auto;
+  }
+  
+  /* Sort Section */
+  .sort-section {
+    margin-bottom: 20px;
+  }
+  
+  .sort-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .sort-dropdown {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* File List */
+  .file-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .file-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .file-item:hover {
+    background-color: #e8f5e9;
+    transform: translateY(-3px);
+  }
+  
+  /* File Preview */
+  .file-preview {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  /* File Icon */
+  .file-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  /* File Name */
+  .file-name {
+    flex-grow: 1;
+    font-size: 16px;
+  }
+  
+  /* Delete Button */
+  .delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #e60000;
+  }
+  
