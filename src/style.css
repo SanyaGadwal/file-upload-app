@@ -1,0 +1,109 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+  }
+  
+  /* File list styles */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Image styles */
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 8px 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 95%;
+      padding: 10px;
+    }
+  
+    .header {
+      font-size: 20px;
+      padding: 15px;
+    }
+  
+    li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  
+    select,
+    button,
+    input[type="file"] {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .header {
+      font-size: 18px;
+      padding: 10px;
+    }
+  
+    button {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    li {
+      padding: 8px;
+    }
+  
+    select,
+    input[type="file"] {
+      width: 100%;
+    }
+  }
+  
