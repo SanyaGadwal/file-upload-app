@@ -10,7 +10,7 @@ const UploadButton = ({ onFileUploaded }) => {
   const handleUpload = () => {
     if (file) {
       console.log("Uploading file:", file);
-      onFileUploaded(file); // <-- Make sure this line is correct!
+      onFileUploaded(file); 
     } else {
       console.log("No file selected.");
     }
